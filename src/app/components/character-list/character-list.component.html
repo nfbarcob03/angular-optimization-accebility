@@ -1,0 +1,57 @@
+<div class="character-container">
+  <h1>Rick and Morty Characters</h1>
+  
+  <div *ngIf="loading" class="loading">
+    <p>Loading characters...</p>
+  </div>
+  
+  <div *ngIf="error" class="error">
+    <p>{{ error }}</p>
+    <button (click)="loadCharacters(currentPage)" class="retry-btn">Retry</button>
+  </div>
+  
+  <div *ngIf="!loading && !error" class="characters-grid">
+    <div *ngFor="let character of characters" class="character-card">
+      <img [src]="character.image" [alt]="character.name" class="character-image">
+      <div class="character-info">
+        <h3 class="character-name">{{ character.name }}</h3>
+        <div class="character-details">
+          <span class="status" [ngClass]="getStatusClass(character.status)">
+            {{ character.status }} - {{ character.species }}
+          </span>
+          <p class="location">
+            <strong>Last known location:</strong><br>
+            {{ character.location.name }}
+          </p>
+          <p class="origin">
+            <strong>First seen in:</strong><br>
+            {{ character.origin.name }}
+          </p>
+          <p class="gender">
+            <strong>Gender:</strong> {{ character.gender }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div *ngIf="!loading && !error" class="pagination">
+    <button 
+      (click)="previousPage()" 
+      [disabled]="currentPage === 1"
+      class="pagination-btn">
+      Previous
+    </button>
+    
+    <span class="page-info">
+      Page {{ currentPage }} of {{ totalPages }}
+    </span>
+    
+    <button 
+      (click)="nextPage()" 
+      [disabled]="currentPage === totalPages"
+      class="pagination-btn">
+      Next
+    </button>
+  </div>
+</div>
