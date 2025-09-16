@@ -22,7 +22,7 @@ export class CharacterListComponent implements OnInit {
   loadCharacters(page: number = 1): void {
     this.loading = true;
     this.error = '';
-    
+
     this.rickMortyService.getCharacters(page).subscribe({
       next: (response: ApiResponse) => {
         this.characters = response.results;
