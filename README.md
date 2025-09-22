@@ -1,8 +1,13 @@
 ## Evidencias de mejora en Lighthouse
 
-Después de aplicar las optimizaciones de imágenes, accesibilidad y i18n, se observó una mejora significativa en las métricas de Lighthouse para la aplicación.
 
-La siguiente imagen muestra el resultado de Lighthouse después de las optimizaciones:
+Se muestran a continuación los resultados de Lighthouse antes y después de aplicar las optimizaciones de imágenes, accesibilidad y i18n:
+
+**Antes de las optimizaciones:**
+
+![Métricas de Lighthouse antes de las optimizaciones](src/assets/antes.png)
+
+**Después de las optimizaciones:**
 
 ![Métricas de Lighthouse después de las optimizaciones](src/assets/despues.png)
 
@@ -51,7 +56,18 @@ Ejecuta `ng build` para construir el proyecto. Los artefactos de la build se alm
 
 ## Pruebas unitarias
 
+
 Ejecuta `ng test` para ejecutar las pruebas unitarias con [Karma](https://karma-runner.github.io).
+
+### Pruebas unitarias de internacionalización (i18n)
+
+Se añadieron pruebas automáticas para verificar la correcta visualización de textos en los tres idiomas soportados (inglés, español y francés) usando ngx-translate. Estas pruebas validan que:
+
+- El título principal (`h1`), el subtítulo y el pie de página muestran el texto traducido correspondiente según el idioma seleccionado.
+- El cambio de idioma en tiempo real actualiza los textos en pantalla sin recargar la aplicación.
+- La detección automática del idioma del navegador funciona correctamente (por defecto inglés si no está soportado).
+
+Estas pruebas aseguran que la experiencia multilingüe sea robusta y que la cobertura de i18n esté garantizada en futuras actualizaciones del código.
 
 ## Pruebas end-to-end
 
