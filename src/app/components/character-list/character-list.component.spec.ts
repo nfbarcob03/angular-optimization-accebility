@@ -56,6 +56,9 @@ describe('CharacterListComponent', () => {
     };
 
     await TestBed.configureTestingModule({
+      imports: [
+        require('@ngx-translate/core').TranslateModule.forRoot()
+      ],
       declarations: [CharacterListComponent],
       providers: [
         { provide: RickMortyService, useValue: rickMortyServiceSpy }
