@@ -1,0 +1,16 @@
+{
+  "title": "Explora el Multiverso",
+  "subtitle": "¡Descubre todos los personajes locos de Rick y Morty!",
+  "loading": "Cargando personajes del multiverso...",
+  "try-again": "Intentar de nuevo",
+  "species": "Especie:",
+  "type": "Tipo:",
+  "gender": "Género:",
+  "last-location": "Última ubicación conocida:",
+  "first-seen": "Visto por primera vez en:",
+  "previous": "Anterior",
+  "next": "Siguiente",
+  "of": "de",
+  "footer-title": "Explorador de Personajes de Rick y Morty",
+  "footer-data": "Datos proporcionados por"
+}

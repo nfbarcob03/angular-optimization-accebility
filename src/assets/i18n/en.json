@@ -1,0 +1,16 @@
+{
+  "title": "Explore the Multiverse",
+  "subtitle": "Discover all the crazy characters from Rick and Morty!",
+  "loading": "Loading characters from the multiverse...",
+  "try-again": "Try Again",
+  "species": "Species:",
+  "type": "Type:",
+  "gender": "Gender:",
+  "last-location": "Last known location:",
+  "first-seen": "First seen in:",
+  "previous": "Previous",
+  "next": "Next",
+  "of": "of",
+  "footer-title": "Rick and Morty Character Explorer",
+  "footer-data": "Data provided by"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Explorez le Multivers",
+  "subtitle": "Découvrez tous les personnages fous de Rick et Morty !",
+  "loading": "Chargement des personnages du multivers...",
+  "try-again": "Réessayer",
+  "species": "Espèce :",
+  "type": "Type :",
+  "gender": "Genre :",
+  "last-location": "Dernier lieu connu :",
+  "first-seen": "Vu pour la première fois dans :",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "of": "de",
+  "footer-title": "Explorateur de Personnages Rick et Morty",
+  "footer-data": "Données fournies par"
+}

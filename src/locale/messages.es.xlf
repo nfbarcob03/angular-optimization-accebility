@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <!-- Traducciones al español van aquí -->
+      <trans-unit id="title" datatype="html">
+        <source>Explore the Multiverse</source>
+        <target>Explora el Multiverso</target>
+      </trans-unit>
+      <trans-unit id="subtitle" datatype="html">
+        <source>Discover all the crazy characters from Rick and Morty!</source>
+        <target>¡Descubre todos los personajes locos de Rick y Morty!</target>
+      </trans-unit>
+      <trans-unit id="loading" datatype="html">
+        <source>Loading characters from the multiverse...</source>
+        <target>Cargando personajes del multiverso...</target>
+      </trans-unit>
+      <trans-unit id="try-again" datatype="html">
+        <source>Try Again</source>
+        <target>Intentar de nuevo</target>
+      </trans-unit>
+      <trans-unit id="species" datatype="html">
+        <source>Species:</source>
+        <target>Especie:</target>
+      </trans-unit>
+      <trans-unit id="type" datatype="html">
+        <source>Type:</source>
+        <target>Tipo:</target>
+      </trans-unit>
+      <trans-unit id="gender" datatype="html">
+        <source>Gender:</source>
+        <target>Género:</target>
+      </trans-unit>
+      <trans-unit id="last-location" datatype="html">
+        <source>Last known location:</source>
+        <target>Última ubicación conocida:</target>
+      </trans-unit>
+      <trans-unit id="first-seen" datatype="html">
+        <source>First seen in:</source>
+        <target>Visto por primera vez en:</target>
+      </trans-unit>
+      <trans-unit id="previous" datatype="html">
+        <source>Previous</source>
+        <target>Anterior</target>
+      </trans-unit>
+      <trans-unit id="next" datatype="html">
+        <source>Next</source>
+        <target>Siguiente</target>
+      </trans-unit>
+      <trans-unit id="of" datatype="html">
+        <source>of</source>
+        <target>de</target>
+      </trans-unit>
+      <trans-unit id="footer-title" datatype="html">
+        <source>Rick and Morty Character Explorer</source>
+        <target>Explorador de Personajes de Rick y Morty</target>
+      </trans-unit>
+      <trans-unit id="footer-data" datatype="html">
+        <source>Data provided by</source>
+        <target>Datos proporcionados por</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

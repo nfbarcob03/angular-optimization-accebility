@@ -4,6 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
     "angular-sofkau": {
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "es": "src/locale/messages.es.xlf",
+          "fr": "src/locale/messages.fr.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -31,6 +38,7 @@
           },
           "configurations": {
             "production": {
+              "localize": ["en", "es", "fr"],
               "budgets": [
                 {
                   "type": "initial",
@@ -44,6 +52,12 @@
                 }
               ],
               "outputHashing": "all"
+            },
+            "es": {
+              "localize": ["es"]
+            },
+            "fr": {
+              "localize": ["fr"]
             },
             "development": {
               "buildOptimizer": false,
@@ -64,6 +78,12 @@
             },
             "development": {
               "browserTarget": "angular-sofkau:build:development"
+            },
+            "es": {
+              "browserTarget": "angular-sofkau:build:es"
+            },
+            "fr": {
+              "browserTarget": "angular-sofkau:build:fr"
             }
           },
           "defaultConfiguration": "development"
